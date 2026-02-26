@@ -2,9 +2,9 @@
 
 ## 🚀 Live Deployment
 
-**Live URL:** [Add your deployment URL here after deploying]
+**Live URL:** https://assignment-phi-five-31.vercel.app/
 
-**GitHub Repository:** [Add your repository URL here]
+**GitHub Repository:** https://github.com/S1dSharma04/assignment
 
 ---
 
@@ -362,18 +362,16 @@ This project is created for educational purposes as part of Round-2 Assignment.
 
 ## 📞 Contact
 
-**Developer:** [Your Name]  
-**Email:** [Your Email]  
-**GitHub:** [Your GitHub Profile]
+**Developer:** Siddhant Sharma 
+**Email:** sharmasiddhant2604@gmail.com   
+**GitHub:** https://github.com/S1dSharma04
 
 ---
 
 ## 🎯 Assignment Completion
 
 **Time Spent:** 4 hours (as per assignment requirement)  
-**Submission Date:** [Add date]  
+**Submission Date:** 26/02/2026  
 **Status:** Ready for Review ✅
 
 ---
-
-**Note:** Remember to update the placeholders (Live URL, GitHub Repository, Demo Video, Contact Info) before final submission!
