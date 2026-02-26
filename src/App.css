@@ -185,6 +185,7 @@ body {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  background: white;
 }
 
 .doctors-table th,
@@ -192,16 +193,27 @@ body {
   padding: 15px;
   text-align: left;
   border-bottom: 1px solid #e0e0e0;
+  color: #333 !important;
+  background: white;
 }
 
 .doctors-table th {
-  background: #f8f9fa;
-  color: #333;
+  background: #f8f9fa !important;
+  color: #333 !important;
   font-weight: 600;
 }
 
+.doctors-table td {
+  color: #555 !important;
+  font-size: 0.95rem;
+}
+
+.doctors-table tbody tr {
+  background: white;
+}
+
 .doctors-table tr:hover {
-  background: #f8f9fa;
+  background: #f8f9fa !important;
 }
 
 .status {

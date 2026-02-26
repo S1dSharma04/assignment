@@ -180,10 +180,10 @@ function App() {
                   <tbody>
                     {doctors.map(doctor => (
                       <tr key={doctor.doctorId}>
-                        <td>{doctor.doctorId}</td>
-                        <td>{doctor.specialization}</td>
-                        <td>{doctor.maxDailyPatients}</td>
-                        <td>{doctor.currentAppointments}</td>
+                        <td style={{color: '#333', fontWeight: '500'}}>{doctor.doctorId || 'N/A'}</td>
+                        <td style={{color: '#555'}}>{doctor.specialization || 'N/A'}</td>
+                        <td style={{color: '#555'}}>{doctor.maxDailyPatients || 0}</td>
+                        <td style={{color: '#555'}}>{doctor.currentAppointments || 0}</td>
                         <td>
                           <span className={`status ${doctor.currentAppointments < doctor.maxDailyPatients ? 'available' : 'full'}`}>
                             {doctor.currentAppointments < doctor.maxDailyPatients ? 'Available' : 'Full'}
